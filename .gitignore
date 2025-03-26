@@ -1,0 +1,33 @@
+# Project-specific files to ignore
+tttrrr.ipynb
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Local environment
+venv/
+env/
+.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Result files and images that might be large
+results/Mnist/*.png
+results/Cifar-10/*.png
+
+# Datasets (if they're large)
+*.mat
